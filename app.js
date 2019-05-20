@@ -25,4 +25,5 @@ app.post('/notes', (req, res) => {
 app.get('/', (req, res) => {
     res.render('notes.ejs', { notes: myNotes });
 });
+
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))

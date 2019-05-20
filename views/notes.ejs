@@ -22,8 +22,12 @@
     <% } %>
 
     <form method="POST" action="/notes">
-        <input type="text" name="note"></input>
-        <input type="submit" value="Save" />
+        <div class="form-group">
+            <label for="note">Type a new note below:</label>
+            <input id="note" type="text" name="note" class="form-control" placeholder="What's up?"></input>
+            <input type="submit" value="Save" class="btn btn-primary" />
+        </div>
+
     </form>
 
   </body>
