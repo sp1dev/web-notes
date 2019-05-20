@@ -19,11 +19,7 @@ body {
     font-size: 56px;
     font-weight: 300;
   }
-  
-  form {
-    margin-top:50px;
-  }
-  
-  form .btn {
-    margin-top: 20px;
+
+  .highlight {
+      background-color: yellow;
   }
